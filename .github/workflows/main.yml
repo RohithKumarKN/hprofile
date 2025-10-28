@@ -1,8 +1,13 @@
 name: Hprofile Actions
-on: [pull, push]
+on:
+  push:
+    branches: [ '*' ]
+  pull_request:
+    branches: [ '*' ]
+
 jobs:
-  Testing:
-    runs-on: ubuntu
+  build:
+    runs-on: ubuntu-latest
     steps:
       - name: Testing Workflow
         run: echo "Workflow Works!"
