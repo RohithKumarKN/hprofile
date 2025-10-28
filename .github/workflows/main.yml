@@ -1,0 +1,8 @@
+name: Hprofile Actions
+on: [pull, push]
+jobs:
+  Testing:
+    runs-on: ubuntu
+    steps:
+      - name: Testing Workflow
+        run: echo "Workflow Works!"
