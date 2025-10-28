@@ -80,6 +80,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
+    
     "status": "ACTIVE",
     "taskDefinitionArn": "arn:aws:ecs:ap-south-1:401399516655:task-definition/vproapp-act-tdef:1",
     "volumes": [],
